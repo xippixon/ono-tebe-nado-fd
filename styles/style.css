@@ -8,6 +8,7 @@
 /* Отступ слева */
 .header__menu {
   margin-left: 28px;
+  margin-bottom: 5px;
 }
 /* Положение и стиль блока слева */
 .header__links-list {
@@ -40,7 +41,7 @@
 }
 /*Правый отступ для адреса*/
 .header__address {
-  margin-right: 58px;
+  margin-right: 60px;
 }
 /*Стиль и позиция адреса*/
 .address {
@@ -91,6 +92,8 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  line-height: 1;
+  letter-spacing: 30px;
   
 
   
@@ -98,8 +101,6 @@
 
 .aligned-text__left {
   align-self: flex-start;
-  line-height: 1;
-  letter-spacing: 30px;
   padding-left: 50px;
   padding-top: 170px;
   
@@ -108,8 +109,6 @@
 
 .aligned-text__center {
   align-self: center;
-  line-height: 1;
-  letter-spacing: 30px;
   padding-top: 38px;
   padding-left: 30px;
   
@@ -117,8 +116,6 @@
 
 .aligned-text__right {
   align-self: flex-end;
-  line-height: 1;
-  letter-spacing: 30px;
   padding-top: 35px;
   margin-right: 21px;
   
@@ -164,7 +161,7 @@
 
 
 .lots {
-  margin: 180px 50px;
+  margin: 180px 50px 152px;
 }
 
 .lots__heading {
@@ -199,6 +196,7 @@
   justify-content: space-between;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center
 }
 
 .card_type_film {
@@ -242,7 +240,6 @@
   grid-template-columns: 335px 1fr;
   justify-items: center;
   padding-top: 2px;
-  margin-top: -28px;
   position: relative;
 }
 
@@ -253,11 +250,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 120px;
+  border-radius: 50%;
 }
 
 .about__logo-image {
-  width: 120x;
   height: 114px;
 }
 
@@ -278,11 +274,21 @@
   flex-direction: column;
 }
 
-.about__text {
+.about__text_1 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0.01px;
+  max-height: 120px;
+  max-width: 688px;
 }
+.about__text_2 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.01px;
+  max-height: 168px;
+  max-width: 700px;
+}
+
 
 .footer {
   display: flex;
@@ -303,10 +309,6 @@
 
 .footer__link_active {
   border-bottom: none;
-}
-
-.footer__menu {
-  margin-left: 34px;
 }
 
 .footer__social-list {
