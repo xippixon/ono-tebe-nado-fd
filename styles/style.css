@@ -274,18 +274,11 @@
   flex-direction: column;
 }
 
-.about__text_1 {
+
+.about__text {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0.01px;
-  max-height: 120px;
-  max-width: 688px;
-}
-.about__text_2 {
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 0.01px;
-  max-height: 168px;
   max-width: 700px;
 }
 
